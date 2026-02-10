@@ -15,5 +15,15 @@ class Hello {
         System.out.println(n2);
         System.out.println(n3);
         System.out.println(n6);
+
+        float f1 = 3.14f;
+        int n7 = (int) f1;
+        System.out.println(n7);
+
+        // Type promotion in expressions
+        byte b1 = 10;
+        byte b2 = 30;
+        int sum = b1 * b2; // b1 and b2 are promoted to int
+        System.out.println(sum);
     }
 }
